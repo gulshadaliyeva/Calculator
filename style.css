@@ -1,0 +1,22 @@
+.display{
+        width: 300px;
+        height: 70px;
+        border: 2px solid;
+        font-size: 20px;
+}
+.buttons{
+        width: 300px;
+        height: 300px;
+        display: flex;
+        flex-flow: wrap;
+        border: 2px solid;
+}
+.buttons button{
+        height: 25%;
+        width: 25%;
+        border: 1px solid black;
+        font-size: 20px;
+        cursor: pointer;
+        color: white;
+        background-color: rgb(57, 31, 101);
+}
